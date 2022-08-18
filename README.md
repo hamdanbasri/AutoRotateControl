@@ -12,6 +12,8 @@ Easy to use Unity's GameObject Auto Rotate Control.
 </div>
 <hr>
 
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -27,6 +29,9 @@ Easy to use Unity's GameObject Auto Rotate Control.
 <!-- ABOUT THE PROJECT -->
 ## About
 
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity3d.com)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+</br>
 Too tired of creating a simple rotating animation for a single gameobject?
 </br>
 Realizing that you need to create the same rotating animation for another gameobject?
@@ -121,8 +126,12 @@ Simply add the script to any GameObject and set the properties.
 <!-- CONTACT -->
 ## Contact
 
-Twitter: [@its_danisauraus](https://twitter.com/its_danisauraus)
-<br/>
-LinkedIn: [Hamdan Basri](https://www.linkedin.com/in/hamdanbasri/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/its_danisauraus)
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hamdanbasri
