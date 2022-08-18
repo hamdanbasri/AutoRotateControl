@@ -3,7 +3,9 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
+<a href="https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs">
 <img src="images/AutoRotateControlLogo.png" alt="Logo" width="400" height="400">
+</a>
 <p align="center">
 Easy to use Unity's GameObject Auto Rotate Control.
 </p>
@@ -29,7 +31,7 @@ Too tired of creating a simple rotating animation for a single gameobject?
 </br>
 Realizing that you need to create the same rotating animation for another gameobject?
 </br>
-Me too, that is why I created this simple to use Auto Rotate Control script.
+Me too, that is why I created this simple to use [Auto Rotate Control](https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs) script.
 
 <!-- FUNCTIONS -->
 ## Functions
@@ -37,18 +39,19 @@ Me too, that is why I created this simple to use Auto Rotate Control script.
 * Instant rotation of GameObjects.
 * Add as many objects that you want to rotate together.
 * Assign keys to rotate and reset the rotation.
-* Adjust the speed of the rotation.
+* Adjust the speed of the rotation.    
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-* Create an empty GameObject and rename it to AutoRotateControl.
-* Attach the AutoRotateControl.cs script to the GameObject.
-* Add as many objects that you want to rotate together in the same script by adding them to the Object To Rotate list.
-* If you want to rotate the object/objects on key press, simply check the Key Press Enable and select the keys you wish to use.
-* Adjust the speed by moving the slider.
-* Add notes on top to keep track of the objects that you AutoRotate.
-* Press Play in your editor and all the objects you had assigned will now rotate according to your settings.
+* Open Unity and add a <strong>Cube</strong> to the scene.
+* Create an empty GameObject and rename it to <strong>AutoRotateControl</strong>.
+* Attach the [AutoRotateControl.cs](https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs) script to the <strong>AutoRotateControl</strong>.
+* Add the <strong>Cube</strong> or as many GameObjects that you want to rotate together in the same script by adding them to the <strong>Object To Rotate</strong> list.
+* If you want to rotate the object/objects on key press, simply check the <strong>Key Press Enable</strong> and select the keys you wish to use.
+* Adjust the speed by moving the <strong>Slider</strong>.
+* Add <strong>Notes</strong> on top to keep track of the objects that you AutoRotate.
+* Press <strong>Play</strong> in your editor and all the objects you had assigned will now rotate according to your settings.
 
 <!-- USAGE EXAMPLES -->
 ## Example
@@ -58,6 +61,61 @@ Me too, that is why I created this simple to use Auto Rotate Control script.
 <p align="center">
 Simply add the script to any GameObject and set the properties.
 </p>
+</br>
+        <table>
+        <tr>
+            <td>Variable</td>
+            <td>Annotation</td>
+            </td>
+        <tr>
+            <td>Notes</td>
+            <td>Add Notes</td>
+        </tr>
+        <tr>
+            <td>Start Rotate Key</td>
+            <td>Set the key to press to start the rotation</td>
+        </tr>
+        <tr>
+            <td>Reset Rotation Key</td>
+            <td>Set the key to press to reset the rotation</td>
+        </tr>
+        <tr>
+            <td>Key Press Enable</td>
+            <td>If enable, rotation will only start on the key pressed assigned to Start Rotate Key</td>
+        </tr>
+        <tr>
+            <td>Positive X</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.right direction</td>
+        </tr>
+        <tr>
+            <td>Negative X</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.left direction</td>
+        </tr>
+        <tr>
+            <td>Positive Y</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.up direction</td>
+        </tr>
+        <tr>
+            <td>Negative Y</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.down direction</td>
+        </tr>
+        <tr>
+            <td>Positive Z</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.back direction</td>
+        </tr>
+        <tr>
+            <td>Negative Z</td>
+            <td>The GameObject/GameObjects will rotate in the Vector3.forward direction</td>
+        </tr>
+        <tr>
+            <td>Speed</td>
+            <td>Adjust the speed of the rotation</td>
+        </tr>
+        <tr>
+            <td>Object To Rotate</td>
+            <td>Arrays of object to be rotated</td>
+        </tr>
+        </table>
 </div>
 
 <!-- CONTACT -->
