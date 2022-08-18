@@ -31,6 +31,7 @@ Easy to use Unity's GameObject Auto Rotate Control.
 
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity3d.com)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Beginner](https://img.shields.io/badge/-Plug%20%26%20Play-yellow?style=for-the-badge)
 </br>
 Too tired of creating a simple rotating animation for a single gameobject?
 </br>
