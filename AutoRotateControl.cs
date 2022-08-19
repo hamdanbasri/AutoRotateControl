@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AutoRotateControl : MonoBehaviour
 {
+    [Header("Rotate any GameObject on individual world axis and controlling their speed.")]
     [Header("Notes")]
     [TextArea(1,1)]
     public string notes;
