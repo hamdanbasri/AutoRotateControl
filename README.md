@@ -10,12 +10,12 @@
 Easy to use Unity's GameObject Auto Rotate Control.
 </p>
 <p align="center">
-version 0.0.1
+<strong>version 0.0.1</strong>
+</br>
+August 2022
 </p>
 </div>
 <hr>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -26,6 +26,7 @@ version 0.0.1
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#example">Example</a></li>
     <li><a href="#known-issue">Known Issues</a></li>
+    <li><a href="#future-ideas">Future Ideas</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -128,10 +129,14 @@ Simply add the script to any GameObject and set the properties.
         </table>
 </div>
 
-<!-- CONTACT -->
+<!-- KNOWN ISSUE -->
 ## Known Issue
-version 0.0.1
-* Does not with in VR
+version 0.0.1 (August 2022)
+* Does not work for VR
+
+<!-- FUTURE IDEAS -->
+## Future Ideas
+* Able to add a groups of objects to be rotated. (Allow you to differentiate different group rotation)
 
 <!-- CONTACT -->
 ## Contact
