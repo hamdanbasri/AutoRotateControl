@@ -9,6 +9,9 @@
 <p align="center">
 Easy to use Unity's GameObject Auto Rotate Control.
 </p>
+<p align="center">
+version 0.0.1
+</p>
 </div>
 <hr>
 
@@ -22,6 +25,7 @@ Easy to use Unity's GameObject Auto Rotate Control.
     <li><a href="#functions">Functions</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#example">Example</a></li>
+    <li><a href="#known-issue">Known Issues</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -41,7 +45,7 @@ Me too, that is why I created this simple to use [Auto Rotate Control](https://g
 
 <!-- FUNCTIONS -->
 ## Functions
-
+version 0.0.1
 * Instant rotation of GameObjects.
 * Add as many objects that you want to rotate together.
 * Assign keys to rotate and reset the rotation.
@@ -123,6 +127,11 @@ Simply add the script to any GameObject and set the properties.
         </tr>
         </table>
 </div>
+
+<!-- CONTACT -->
+## Known Issue
+version 0.0.1
+* Does not with in VR
 
 <!-- CONTACT -->
 ## Contact
