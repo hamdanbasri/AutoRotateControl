@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class AutoRotateControl : MonoBehaviour
 {
     [Header("Rotate any GameObject on individual world axis and controlling their speed.")]
@@ -7,10 +6,13 @@ public class AutoRotateControl : MonoBehaviour
     [TextArea(1,1)]
     public string notes;
 
-    [Header("Enable/Disable")]
-    [Tooltip("Enable or Disable the rotation")]
+    [Header("Settings")]
+    [Tooltip("Defines the key and settings of the rotator")]
     [Space(10f)]
-    public bool enable;
+    public KeyCode startRotateKey;
+    public KeyCode resetRotationKey;
+    public bool keyPressEnable;
+    bool enableAuto;
 
     [Header("X Axis")]
     [Tooltip("Rotates the GameObject on the X Axis")]
@@ -38,10 +40,30 @@ public class AutoRotateControl : MonoBehaviour
     [Tooltip("Selection of object to rotate")]
     [Space(10f)]
     public GameObject[] objectToRotate;
+    Vector3[] originalRotation;
+
+    void Start() 
+    {
+        originalRotation = new Vector3[objectToRotate.Length];
+
+        for(int i = 0; i < objectToRotate.Length; i++)
+        {
+            originalRotation[i] = objectToRotate[i].transform.eulerAngles;
+        }
+
+        if(keyPressEnable)
+        {
+            enableAuto = false;
+        }
+        else
+        {
+            enableAuto = true;
+        }
+    }
 
     void Update()
     {
-        if (enable)
+        if (enableAuto)
         {
             foreach (GameObject objToRotate in objectToRotate)
             {
@@ -75,6 +97,28 @@ public class AutoRotateControl : MonoBehaviour
                     objToRotate.transform.Rotate(Vector3.forward, speed * Time.deltaTime);
                 }
             }
+        }
+
+        if (keyPressEnable)
+        {
+            if (Input.GetKeyDown(startRotateKey))
+            {
+                enableAuto = true;
+            }
+
+            if (Input.GetKeyDown(resetRotationKey))
+            {
+                ResetRotation();
+                enableAuto = false;
+            }
+        }
+    }
+
+    public void ResetRotation()
+    {
+        for(int i = 0; i < objectToRotate.Length; i++)
+        {
+            objectToRotate[i].transform.eulerAngles = originalRotation[i]; 
         }
     }
 }
