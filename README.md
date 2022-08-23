@@ -33,7 +33,6 @@ August 2022
 
 <!-- ABOUT THE PROJECT -->
 ## About
-
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity3d.com)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Beginner](https://img.shields.io/badge/-Plug%20%26%20Play-yellow?style=for-the-badge)
@@ -54,7 +53,7 @@ version 0.0.1
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhamdanbasri%2FAutoRotateControl&label=Visitors&countColor=%23263759&style=flat)
 * Open Unity and add a <strong>Cube</strong> to the scene.
 * Create an empty GameObject and rename it to <strong>AutoRotateControl</strong>.
 * Attach the [AutoRotateControl.cs](https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs) script to the <strong>AutoRotateControl</strong>.
